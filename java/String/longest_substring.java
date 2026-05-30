@@ -10,8 +10,7 @@ class longest_substring{
             longest= Math.max(longest,r-l+1);
             set.add(s.charAt(r));
         }
-        return longest;
-        
+        return longest;   
     }
     public static void main(String []args){
         String s = new String();
